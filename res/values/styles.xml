@@ -1,0 +1,43 @@
+<resources>
+    <style name="BaseStyle" parent="@android:style/Theme.Holo.Light">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <!--加载对话窗-->
+    <style name="BaseDialog" parent="@android:style/Theme.Dialog"/>
+    <style name="Theme.Light.LoadingDialog" parent="@style/BaseDialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowSoftInputMode">adjustPan</item>
+    </style>
+
+    <!--自定义View-material的样式-->
+    <style name="TextAppearance.MaterialCalendarWidget.Header"
+           parent="android:TextAppearance.DeviceDefault.Small">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <!--Item字体的基本样式-->
+    <style name="BaseItemTextStyle">
+        <item name="android:textSize">@dimen/text_size_small</item>
+        <item name="android:textColor">#000</item>
+        <item name="android:layout_weight">2</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">#fff</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+
+
+
+</resources>
+

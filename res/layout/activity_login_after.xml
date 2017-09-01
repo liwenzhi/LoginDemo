@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+<TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#fff"
+        android:text="登录成功后的界面"
+        android:gravity="center"
+        android:textSize="@dimen/dp_20"
+    />
+        <Button
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="返回登录界面"
+                android:onClick="toLogin"
+                />
+        <Button
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="注销当前用户"
+                android:onClick="toLogin2"
+                />
+
+</LinearLayout>
